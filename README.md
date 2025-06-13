@@ -15,12 +15,6 @@ Selamat datang di "Notes App", sebuah aplikasi catatan sederhana yang dibangun d
 
 ---
 
-## 🚀 Demo Langsung
-
-> _(Opsional)_ Tambahkan tautan ke [demo online](https://contoh-notesapp.vercel.app) jika tersedia.
-
----
-
 ## 🔧 Teknologi yang Digunakan
 
 - ⚛️ React – Library frontend berbasis komponen
