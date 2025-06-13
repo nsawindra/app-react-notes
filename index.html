@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App</title>
+</head>
+<body>
+  <!-- Loading indicator harus di atas -->
+  <loading-indicator id="loading-indicator"></loading-indicator>
+  
+  <app-bar></app-bar>
+  
+  <main class="main-content">
+    <section class="note-input">
+      <h2>Add New Note</h2>
+      <form id="note-form">
+        <input 
+          type="text" 
+          id="note-input" 
+          placeholder="Note title..." 
+          required
+          aria-label="Note input"
+        >
+        <button type="submit">Add Note</button>
+      </form>
+    </section>
+    
+    <section class="note-list">
+      <h2>Your Notes</h2>
+      <div id="notes-container" class="notes-grid"></div>
+    </section>
+  </main>
+
+  <!-- Error toast placeholder -->
+  <div id="error-toast" style="display:none;"></div>
+</body>
+</html>
